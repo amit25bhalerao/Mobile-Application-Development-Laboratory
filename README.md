@@ -1,4 +1,17 @@
-# Mobile Application Development Laboratory Programs
+## Mobile Application Development Laboratory Programs
+
+This repository contains a collection of programs developed for the Mobile Application Development Laboratory course. The programs are designed to provide practical hands-on experience in developing mobile applications for the Android platform.
+
+### Table of Contents
+
+1. Program 1: Visiting Card
+2. Program 2: Simple Calculator
+3. Program 3: Sign Up and Login Activity
+4. Program 4: Changing Wallpaper Application
+5. Program 5: Counter Application
+6. Program 6: Parsing JSON and XML Data
+7. Program 7: Text to Speech Application
+8. Program 8: Call and Save Application
 
 |    Program     |         Title of Program       | 
 | :------------: | :----------------------------: | 
@@ -11,53 +24,20 @@
 |    Prog. 7     |   Text to Speech Application   | 
 |    Prog. 8     |    Call and Save Application   | 
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Purpose
 
-List of Mobile Application Development Programs included in the repository:
+The purpose of this repository is to provide a comprehensive set of mobile application programs that cover various aspects of Android app development. These programs aim to develop skills in designing user interfaces, implementing functionality, handling user input, and integrating different features of mobile devices.
 
-<p align="justify"> 
-Program 1 • Create an application to design a Visiting Card. The Visiting card should have a company logo at the top right corner. The company name should be displayed 
-in Capital letters, aligned to the centre. Information like the name of the employee, job title, phone number, address, email, fax and the website address is to be 
-displayed. Insert a horizontal line between the job title and the phone number.
-</p>
+### Usage
 
-<p align="justify"> 
-Program 2 • Develop an Android application using controls like Button, TextView, EditText for designing a calculator having basic functionality like Addition, 
-Subtraction, Multiplication, and Division.
-</p>
+Each program in this repository can be accessed individually. You can clone or download the repository to your local machine and open the programs using an Android development environment such as Android Studio. From there, you can build and run the applications on an Android emulator or a physical Android device.
 
-<p align="justify"> 
-Program 3 • Create a SIGN Up activity with Username and Password. Validation of password should happen based on the following rules: <br>
-a. Password should contain uppercase and lowercase letters. <br>
-b. Password should contain letters and numbers. <br>
-c. Password should contain special characters. <br>
-d. Minimum length of the password (the default value is 8). <br>
-On successful SIGN UP proceed to the next Login activity. Here the user should SIGN IN using the Username and Password created during signup activity. If the Username 
-and Password are matched then navigate to the next activity which displays a message saying “Successful Login” or else display a toast message saying “Login Failed”. 
-The user is given only two attempts and after that display a toast message saying “Failed Login Attempts” and disable the SIGN IN button. Use Bundle to transfer 
-information from one activity to another.
-</p>
+### Contribution
 
-<p align="justify"> 
-Program 4 • Develop an application to set an image as wallpaper. On click of a button, the wallpaper image should start to change randomly every 30 seconds.
-</p>
+Contributions to this repository are welcome. If you have any improvements or additional programs related to mobile application development, feel free to create a pull request. Please ensure that your contributions adhere to the guidelines and coding standards of the repository.
 
-<p align="justify"> 
-Program 5 • Write a program to create an activity with two buttons START and STOP. On pressing of the START button, the activity must start the counter by displaying 
-the numbers from One and the counter must keep on counting until the STOP button is pressed. Display the counter value in a TextView control.
-</p>
+### License and Disclaimer
 
-<p align="justify"> 
-Program 6 • Create two files of XML and JSON type with values for City_Name, Latitude, Longitude, Temperature, and Humidity. Develop an application to create an 
-activity with two buttons to parse the XML and JSON files which when clicked should display the data in their respective layouts side by side.
-</p>
+The programs in this repository are provided under the [MIT License](https://opensource.org/licenses/MIT). However, please note that while the programs have been tested, they are provided as-is, without any warranty. The repository owner and contributors will not be liable for any damages or losses arising from the use of these programs.
 
-<p align="justify"> 
-Program 7 • Develop a simple application with one Edit Text so that the user can write some text in it. Create a button called “Convert Text to Speech” that converts 
-the user input text into voice.
-</p>
-
-<p align="justify"> 
-Program 8 • Create an activity like a phone dialer with CALL and SAVE buttons. On pressing the CALL button, it must call the phone number and on pressing the SAVE 
-button it must save the number to the phone contacts.
-</p>
+It is recommended to use these programs for learning purposes and to verify their functionality in a controlled environment before deploying them to production or real-world applications.
